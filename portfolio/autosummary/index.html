@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>autosummary</title>
+<meta name="description" content="Describe your website">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="stylesheet" href="https://sereprz.github.io/personal-website/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="https://sereprz.github.io/personal-website/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://sereprz.github.io/personal-website/css/owl.carousel.css">
+<link rel="stylesheet" href="https://sereprz.github.io/personal-website/css/owl.theme.css">
+
+
+  <link href="https://sereprz.github.io/personal-website/css/style.red.css" rel="stylesheet" id="theme-stylesheet">
+
+
+<link href="https://sereprz.github.io/personal-website/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://sereprz.github.io/personal-website/static/img/favicon.png">
+
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="/">Serena Peruzzo</a></h1>
+    
+      <p class="sidebar-p">Data Scientist | <a href='recurse.com'>Recurse Center</a> alumna | travel junkie</p>
+    
+      <p class="sidebar-p">Currently based in London.</p>
+    
+    <ul class="sidebar-menu">
+      
+      
+        <li><a href="https://sereprz.github.io/personal-website/">Home</a></li>
+      
+        <li><a href="https://sereprz.github.io/personal-website/about/">About</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="/">Serena Peruzzo</a></h1>
+</div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>autosummary</h1>
+         <p><a href="https://github.com/sereprz/autosummary">Github</a> | <a href="http://autosummary.serenaperuzzo.com/">App</a></p>
+
+<p>The goal of this project was to explore automatic summarisation and understand how a subset of text representing the core &ldquo;information&rdquo; can be extracted from a document in an unsupervised manner.</p>
+
+<p>A popular, unsupervised, algorithm for keyphrase extraction is <a href="href=" title="https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf">TextRank</a>, which essentially runs PageRank on a graph designed to represent the text. In the graph vertices are units of text (sentences) and the edges are undirected and weighted on the basis of some lexical similarity between the vertices. In the original paper the measure of similarity is given by the count of overlapping words normalised by the length of the two sentences.</p>
+
+<p>This method does not require any training as it exploits the structure of the text to determine what is the &ldquo;central&rdquo; meaning of the text, but the measure of similarity used has no notion of the relationships between words, e.g. <em>python</em> and <em>ruby</em> are both programming languages but would result in no overlapping. Word embeddings encode the meaning of words in their vector representation so that words that are similar in meaning are cloase to each other in the vactor space.</p>
+
+<p>I was interested in testing if projecting the text in a vector space using a model like <a href="https://en.wikipedia.org/wiki/Word2vec">word2vec</a> could lead to simplifying the algorithm for automatic summarisation. The following steps work nicely for news, blog articles and short essays:</p>
+
+<ol>
+<li>Using word2vec trained on the brown corpus (nltk), sentences in the text are represented as the average of the individual term vectors.</li>
+<li>Using cosine distance, build the matrix of pairwise distances between sentences.</li>
+<li>For each sentence, calculate an individual score given by the sum of distances from each other sentence in the text.</li>
+<li>The final summary is built by ranking the sentences according to their final score and using the top 20%</li>
+</ol>
+
+         
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="https://sereprz.github.io/personal-website/js/jquery.min.js"></script>
+<script src="https://sereprz.github.io/personal-website/js/bootstrap.min.js"></script>
+<script src="https://sereprz.github.io/personal-website/js/jquery.cookie.js"> </script>
+<script src="https://sereprz.github.io/personal-website/js/ekko-lightbox.js"></script>
+<script src="https://sereprz.github.io/personal-website/js/jquery.scrollTo.min.js"></script>
+<script src="https://sereprz.github.io/personal-website/js/masonry.pkgd.min.js"></script>
+<script src="https://sereprz.github.io/personal-website/js/imagesloaded.pkgd.min.js"></script>
+<script src="https://sereprz.github.io/personal-website/js/owl.carousel.min.js"></script>
+<script src="https://sereprz.github.io/personal-website/js/front.js"></script>
+
+  <div class="copyright text-center">
+    <p class="social">
+  
+  <a href="https://github.com/sereprz" data-animate-hover="pulse">
+    <i class="fa fa-github"></i>
+  </a>
+  
+  
+  <a href="mailto:serena.peruzzo@gmail.com" data-animate-hover="pulse" class="email">
+    <i class="fa fa-envelope"></i>
+  </a>
+  
+  
+  <a href="https://www.linkedin.com/in/speruzzo/" data-animate-hover="pulse">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+  
+  <a href="https://twitter.com/sereprz" data-animate-hover="pulse" class="external twitter">
+    <i class="fa fa-twitter"></i>
+  </a>
+  
+</p>
+
+    <p class="credit">
+        
+          &copy;2017 Serena Peruzzo
+        
+        | Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>
+
+&amp; ported to Hugo by <a href="https://github.com/kishaningithub">Kishan B</a>
+
+    </p>
+</div>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Serena Peruzzo</title>
+    <link>https://sereprz.github.io/personal-website/portfolio/</link>
+    <description>Recent content in Portfolios on Serena Peruzzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;2017 Serena Peruzzo</copyright>
+    <lastBuildDate>Wed, 10 May 2017 18:20:01 -0400</lastBuildDate>
+    
+	<atom:link href="https://sereprz.github.io/personal-website/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>autosummary</title>
+      <link>https://sereprz.github.io/personal-website/portfolio/autosummary/</link>
+      <pubDate>Wed, 10 May 2017 18:20:01 -0400</pubDate>
+      
+      <guid>https://sereprz.github.io/personal-website/portfolio/autosummary/</guid>
+      <description>Github | App
+The goal of this project was to explore automatic summarisation and understand how a subset of text representing the core &amp;ldquo;information&amp;rdquo; can be extracted from a document in an unsupervised manner.
+A popular, unsupervised, algorithm for keyphrase extraction is TextRank, which essentially runs PageRank on a graph designed to represent the text. In the graph vertices are units of text (sentences) and the edges are undirected and weighted on the basis of some lexical similarity between the vertices.</description>
+    </item>
+    
+    <item>
+      <title>Shakespeare classifier</title>
+      <link>https://sereprz.github.io/personal-website/portfolio/shakespeare/</link>
+      <pubDate>Wed, 10 May 2017 17:53:20 -0400</pubDate>
+      
+      <guid>https://sereprz.github.io/personal-website/portfolio/shakespeare/</guid>
+      <description>Github | Code Words | YouTube
+The goal of this project was to come up with an unsupervised method for splitting Shakespeare&amp;rsquo;s plays in 2 groups, and compare the results to the traditional classification into comedies and tragedies.
+Unsupervised document classification addresses the problem of assigning categories to documents without the use of a training set or predefined categories. This is useful to enhance information retrieval, the basic assumption being that similar contents are also relevant to the same query.</description>
+    </item>
+    
+    <item>
+      <title>RC social</title>
+      <link>https://sereprz.github.io/personal-website/portfolio/rcsocial/</link>
+      <pubDate>Wed, 10 May 2017 15:36:04 -0400</pubDate>
+      
+      <guid>https://sereprz.github.io/personal-website/portfolio/rcsocial/</guid>
+      <description>Github
+The purpose of this project was to play around with some of the D3 more complex layouts.
+The data comes from a database of conversation on Zulip at the Recurse Center, filtered around the week of Easter in 2015. An R script is used to identify interactions between active recursers on the chat. The interactions are then represented on a chord graph: each recursers represents a portion of the circle, while the ribbons connect recursers that have mentioned each other.</description>
+    </item>
+    
+    <item>
+      <title>Baby names wizard</title>
+      <link>https://sereprz.github.io/personal-website/portfolio/babynames/</link>
+      <pubDate>Wed, 10 May 2017 15:35:55 -0400</pubDate>
+      
+      <guid>https://sereprz.github.io/personal-website/portfolio/babynames/</guid>
+      <description>Github | [App]
+A visual exploration of the baby names in the US made in R using shiny and ggplot2.
+The original dataset is made accessible by the Social Security Administration here and incudes name, year of birth, sex and number for all Social Security card applications between 1880 and 2013.</description>
+    </item>
+    
+    <item>
+      <title>Language generation</title>
+      <link>https://sereprz.github.io/personal-website/portfolio/markovchain/</link>
+      <pubDate>Wed, 10 May 2017 15:31:00 -0400</pubDate>
+      
+      <guid>https://sereprz.github.io/personal-website/portfolio/markovchain/</guid>
+      <description>Github
+The goal of this project was to build a random generator of sentences based on a Markov chain.
+A Markov chain is a stochastic model describing a sequence of possibile event in which the probability of each event depends only on the state attained at the previous step. As such, a Markov chain has a set of states and a matric of transition probabilities P where pij is the probability of the chain transitioning from state i to state j.</description>
+    </item>
+    
+  </channel>
+</rss>

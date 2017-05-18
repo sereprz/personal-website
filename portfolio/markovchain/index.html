@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Language generation</title>
+<meta name="description" content="Describe your website">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="stylesheet" href="https://sereprz.github.io/personal-website/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="https://sereprz.github.io/personal-website/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://sereprz.github.io/personal-website/css/owl.carousel.css">
+<link rel="stylesheet" href="https://sereprz.github.io/personal-website/css/owl.theme.css">
+
+
+  <link href="https://sereprz.github.io/personal-website/css/style.red.css" rel="stylesheet" id="theme-stylesheet">
+
+
+<link href="https://sereprz.github.io/personal-website/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://sereprz.github.io/personal-website/static/img/favicon.png">
+
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="/">Serena Peruzzo</a></h1>
+    
+      <p class="sidebar-p">Data Scientist | <a href='recurse.com'>Recurse Center</a> alumna | travel junkie</p>
+    
+      <p class="sidebar-p">Currently based in London.</p>
+    
+    <ul class="sidebar-menu">
+      
+      
+        <li><a href="https://sereprz.github.io/personal-website/">Home</a></li>
+      
+        <li><a href="https://sereprz.github.io/personal-website/about/">About</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="/">Serena Peruzzo</a></h1>
+</div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>Language generation</h1>
+         <p><a href="https://github.com/sereprz/markov-text">Github</a></p>
+
+<!-- http://www.cs.princeton.edu/courses/archive/spr05/cos126/assignments/markov.html -->
+
+<p>The goal of this project was to build a random generator of sentences based on a Markov chain.</p>
+
+<p>A <a href="https://en.wikipedia.org/wiki/Markov_chain">Markov chain</a> is a stochastic model describing a sequence of possibile event in which the probability of each event depends only on the state attained at the previous step. As such, a Markov chain has a <em>set of states</em> and a matric of transition probabilities <strong>P</strong> where <em>p<sub>ij</sub></em> is the probability of the chain transitioning from state <em>i</em> to state <em>j</em>.</p>
+
+<p>Given a text:</p>
+
+<ul>
+<li>The set of possible states is the vocabulary in the document.</li>
+<li>The probability of word<sub>i</sub> is equal to the number of occurrences of word<sub>i</sub> in the text, divided by the length.</li>
+<li>The probability of word<sub>j</sub> following word<sub>i</sub> is equal to the number of times word<sub>j</sub> occur after word<sub>i</sub>, divided by the frequency of word<sub>i</sub> in the document.</li>
+</ul>
+
+<p>The algorithm for the generator is:</p>
+
+<ol>
+<li>Identify sentences in the document by separating them with <em>&lt;eos&gt;</em>.</li>
+<li>Compute the empirical probability distribution of the words in the text and the transition matrix.</li>
+<li>Select the first world of the sentence according to the empirical distribution of the vocabulary in the text.</li>
+<li>At each step, select the next word with according to the conditional probability given the previous word.</li>
+<li>Repeat 4 until <em>&lt;eos&gt;</em> is selected.</li>
+</ol>
+
+         
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="https://sereprz.github.io/personal-website/js/jquery.min.js"></script>
+<script src="https://sereprz.github.io/personal-website/js/bootstrap.min.js"></script>
+<script src="https://sereprz.github.io/personal-website/js/jquery.cookie.js"> </script>
+<script src="https://sereprz.github.io/personal-website/js/ekko-lightbox.js"></script>
+<script src="https://sereprz.github.io/personal-website/js/jquery.scrollTo.min.js"></script>
+<script src="https://sereprz.github.io/personal-website/js/masonry.pkgd.min.js"></script>
+<script src="https://sereprz.github.io/personal-website/js/imagesloaded.pkgd.min.js"></script>
+<script src="https://sereprz.github.io/personal-website/js/owl.carousel.min.js"></script>
+<script src="https://sereprz.github.io/personal-website/js/front.js"></script>
+
+  <div class="copyright text-center">
+    <p class="social">
+  
+  <a href="https://github.com/sereprz" data-animate-hover="pulse">
+    <i class="fa fa-github"></i>
+  </a>
+  
+  
+  <a href="mailto:serena.peruzzo@gmail.com" data-animate-hover="pulse" class="email">
+    <i class="fa fa-envelope"></i>
+  </a>
+  
+  
+  <a href="https://www.linkedin.com/in/speruzzo/" data-animate-hover="pulse">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+  
+  <a href="https://twitter.com/sereprz" data-animate-hover="pulse" class="external twitter">
+    <i class="fa fa-twitter"></i>
+  </a>
+  
+</p>
+
+    <p class="credit">
+        
+          &copy;2017 Serena Peruzzo
+        
+        | Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>
+
+&amp; ported to Hugo by <a href="https://github.com/kishaningithub">Kishan B</a>
+
+    </p>
+</div>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+</body>
+</html>

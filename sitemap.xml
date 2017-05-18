@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://sereprz.github.io/personal-website/portfolio/autosummary/</loc>
+    <lastmod>2017-05-10T18:20:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sereprz.github.io/personal-website/portfolio/shakespeare/</loc>
+    <lastmod>2017-05-10T17:53:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sereprz.github.io/personal-website/portfolio/rcsocial/</loc>
+    <lastmod>2017-05-10T15:36:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sereprz.github.io/personal-website/portfolio/babynames/</loc>
+    <lastmod>2017-05-10T15:35:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sereprz.github.io/personal-website/portfolio/markovchain/</loc>
+    <lastmod>2017-05-10T15:31:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sereprz.github.io/personal-website/about/</loc>
+    <lastmod>2017-05-10T12:41:42-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sereprz.github.io/personal-website/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sereprz.github.io/personal-website/portfolio/</loc>
+    <lastmod>2017-05-10T18:20:01-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sereprz.github.io/personal-website/</loc>
+    <lastmod>2017-05-10T18:20:01-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sereprz.github.io/personal-website/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
