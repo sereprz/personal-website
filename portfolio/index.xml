@@ -40,9 +40,9 @@ Unsupervised document classification addresses the problem of assigning categori
       <pubDate>Wed, 10 May 2017 15:36:04 -0400</pubDate>
       
       <guid>https://sereprz.github.io/personal-website/portfolio/rcsocial/</guid>
-      <description>Github
+      <description>Github | [Graph]()
 The purpose of this project was to play around with some of the D3 more complex layouts.
-The data comes from a database of conversation on Zulip at the Recurse Center, filtered around the week of Easter in 2015. An R script is used to identify interactions between active recursers on the chat. The interactions are then represented on a chord graph: each recursers represents a portion of the circle, while the ribbons connect recursers that have mentioned each other.</description>
+The data comes from a database of conversation on Zulip at the Recurse Center, filtered around the month of April 2015. An R script is used to identify interactions between active recursers on the chat. The interactions are then represented on a chord graph: each recursers represents a portion of the circle, while the ribbons connect recursers that have mentioned each other.</description>
     </item>
     
     <item>
