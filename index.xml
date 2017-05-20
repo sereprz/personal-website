@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2017 Serena Peruzzo</copyright>
-    <lastBuildDate>Wed, 10 May 2017 18:20:01 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 20 May 2017 14:14:42 -0400</lastBuildDate>
     
 	<atom:link href="https://sereprz.github.io/personal-website/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Work</title>
+      <link>https://sereprz.github.io/personal-website/work/</link>
+      <pubDate>Sat, 20 May 2017 14:14:42 -0400</pubDate>
+      
+      <guid>https://sereprz.github.io/personal-website/work/</guid>
+      <description>Resume
+For details about my background and professional experience see my cv here
+
+Articles
+ Data Cleaning a Necessary Chore, The Recompiler, Issue Six - March 2017 Data Driven Literary Analysis, Code Words, Issue Seven - October 2016  
+Publications
+ S. Peruzzo, M. Holenderski &amp;amp; J. J. Lukkien, Pattern-based feature extraction for fault detection in quality relevant process control, accepted as a regular paper in ETFA 2017 C.</description>
+    </item>
     
     <item>
       <title>autosummary</title>
